@@ -1,5 +1,5 @@
 {
-  "name": "stream-alert-overlay",
+  "name": "twitch-alert-overlay",
   "version": "1.0.0",
   "description": "A simple follower alert overlay for OBS that displays a list of the latest followers approximately every 60 seconds.",
   "main": "main.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joekombo/stream-alert-overlay.git"
+    "url": "git+https://github.com/joekombo/twitch-alert-overlay.git"
   },
   "author": "JoeKombo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joekombo/stream-alert-overlay/issues"
+    "url": "https://github.com/joekombo/twitch-alert-overlay/issues"
   },
-  "homepage": "https://github.com/joekombo/stream-alert-overlay#readme",
+  "homepage": "https://github.com/joekombo/twitch-alert-overlay#readme",
   "dependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.1.3",

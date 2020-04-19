@@ -30,7 +30,7 @@ Required. [Create an application at dev.twitch.tv](https://dev.twitch.tv) and us
 
 ## Example
 
-`https://joekombo.github.io/stream-alert-overlay/?login=joekombo&clientid=[your client id]`
+`https://joekombo.github.io/twitch-alert-overlay/?login=joekombo&clientid=[your client id]`
 
 ## Application Settings
 
@@ -43,8 +43,8 @@ I use the following application settings at [dev.twitch.tv](https://dev.twitch.t
 Clone the project using [git](https://git-scm.com). And then change the directory to the project folder.
 
 ```
-git clone https://github.com/joekombo/stream-alert-overlay
-cd stream-alert-overlay
+git clone https://github.com/joekombo/twitch-alert-overlay
+cd twitch-alert-overlay
 ```
 
 Install the depedencies using [npm](https://www.npmjs.com/) and use `npm start` to serve the files.

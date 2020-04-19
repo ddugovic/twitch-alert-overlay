@@ -84,8 +84,8 @@ async function startOverlay() {
       document.body.innerHTML = `
         <div class='instructions'>
           <h1>MISSING CLIENT ID</h1>
-          <p>Go to <a href="https://github.com/joekombo/stream-alert-overlay">
-          https://github.com/joekombo/stream-alert-overlay</a> for detailed instructions.</p>
+          <p>Go to <a href="https://github.com/joekombo/twitch-alert-overlay">
+          https://github.com/joekombo/twitch-alert-overlay</a> for detailed instructions.</p>
         </div>
       `;
       return;
