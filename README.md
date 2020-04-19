@@ -32,6 +32,11 @@ Required. [Create an application at dev.twitch.tv](https://dev.twitch.tv) and us
 
 `https://joekombo.github.io/twitch-alert-overlay/?login=joekombo&clientid=[your client id]`
 
+## Testing notifications are working using another streamer name
+Use another streamer's login name to test that notifcations are working. Example: `login=summit1g`
+
+_Note: Be patient.  The notifications may take up to 60 seconds to show for the first time.  **Before going live change name back to your login!**_
+
 ## Application Settings
 
 I use the following application settings at [dev.twitch.tv](https://dev.twitch.tv) to obtain my Client ID. The Client ID can be found near the bottom.
