@@ -1,0 +1,116 @@
+body {
+  width: 1920px;
+  height: 1080px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.instructions {
+  font-size: 48px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@keyframes slidein {
+  0% {
+    left: -1920px;
+  }
+  10% {
+    left: 0px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#alerts {
+  width: 1920px;
+  height: 1080px;
+}
+
+#alerts-frame {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+  animation-name: slidein;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+.alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(97, 97, 97);
+  width: 627px;
+  height: 204;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-picture {
+  display: block;
+  width: 204;
+  height: 204;
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name-group {
+  width: 423;
+  display: flex;
+  flex-direction: column;
+}
+.followed-by {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px;
+  background-color: #6441a5;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+.display-name {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 15px;
+  background-color: gray;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slidein-right {
+  0% {
+    left: 1080px;
+  }
+  20% {
+    left: 0px;
+  }
+  90% {
+    left: 0px;
+  }
+  100% {
+    left: -1080px;
+  }
+}
+
+#gif {
+  position: absolute;
+  z-index: 999;
+  bottom: 0px;
+  animation-name: slidein-right;
+  animation-duration: 3.2s;
+  animation-fill-mode: forwards;
+}
