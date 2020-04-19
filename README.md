@@ -1,6 +1,6 @@
 ![screenshot of stream alert overlay](screenshot.png)
 
-# Stream Alert Overlay
+# Twitch Alert Overlay
 
 A simple follower alert overlay for OBS that displays a list of the latest followers approximately every 60 seconds.
 
